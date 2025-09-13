@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Doctor Created Health Check</title>
+  <style>
+    body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.hc-container {
+  width: 94%;
+  max-width: 1300px;
+  margin: 32px auto;
+}
+
+.hc-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 38px;
+  letter-spacing: -1.2px;
+}
+
+.hc-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 32px 34px;
+  align-items: stretch;
+}
+
+.hc-card {
+  background: #fff;
+  box-shadow: 0 2px 12px #ededed;
+  border-radius: 20px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-height: 60px;
+  transition: box-shadow 0.16s;
+}
+
+.hc-card:hover {
+  box-shadow: 0 4px 18px #e9b8c2;
+}
+
+.hc-icon {
+  font-size: 2.15em;
+  width: 42px;
+  text-align: center;
+}
+
+.hc-label {
+  font-size: 1.18rem;
+  font-weight: 500;
+  color: #222;
+  line-height: 1.22;
+}
+
+/* Responsive for small screens */
+@media (max-width: 1000px) {
+  .hc-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .hc-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hc-card {
+    justify-content: flex-start;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="hc-container">
+    <h1 class="hc-title">Doctor Created Health Check</h1>
+    <div class="hc-grid">
+      <div class="hc-card"><span class="hc-icon">🩺</span><span class="hc-label">Full Body Checkup</span></div>
+      <div class="hc-card"><span class="hc-icon">🧑‍💻</span><span class="hc-label">Diabetes</span></div>
+      <div class="hc-card"><span class="hc-icon">👩‍⚕️</span><span class="hc-label">Women's Health</span></div>
+      <div class="hc-card"><span class="hc-icon">🦃</span><span class="hc-label">Thyroid</span></div>
+      <div class="hc-card"><span class="hc-icon">🍊</span><span class="hc-label">Vitamin</span></div>
+      <div class="hc-card"><span class="hc-icon">🧪</span><span class="hc-label">Blood Studies</span></div>
+      <div class="hc-card"><span class="hc-icon">🫀</span><span class="hc-label">Heart</span></div>
+      <div class="hc-card"><span class="hc-icon">🧫</span><span class="hc-label">Kidney</span></div>
+      <div class="hc-card"><span class="hc-icon">🍖</span><span class="hc-label">Liver</span></div>
+      <div class="hc-card"><span class="hc-icon">🦰</span><span class="hc-label">Hairfall</span></div>
+      <div class="hc-card"><span class="hc-icon">🤒</span><span class="hc-label">Fever</span></div>
+      <div class="hc-card"><span class="hc-icon">👴</span><span class="hc-label">Senior Citizen</span></div>
+      <div class="hc-card"><span class="hc-icon">⚗️</span><span class="hc-label">Hormone Screening</span></div>
+      <div class="hc-card"><span class="hc-icon">🦟</span><span class="hc-label">Dengue</span></div>
+      <div class="hc-card"><span class="hc-icon">🧑‍🔬</span><span class="hc-label">Tax Saver</span></div>
+      <div class="hc-card"><span class="hc-icon">🦠</span><span class="hc-label">Covid 19</span></div>
+      <div class="hc-card"><span class="hc-icon">🦴</span><span class="hc-label">Bone and Joint</span></div>
+      <div class="hc-card"><span class="hc-icon">😷</span><span class="hc-label">Allergy</span></div>
+      <div class="hc-card"><span class="hc-icon">⚤</span><span class="hc-label">Sexual Wellness</span></div>
+      <div class="hc-card"><span class="hc-icon">🛡️</span><span class="hc-label">Immunity</span></div>
+      <div class="hc-card"><span class="hc-icon">🧑‍🤝‍🧑</span><span class="hc-label">Fever and Infection</span></div>
+      <div class="hc-card"><span class="hc-icon">⚪</span><span class="hc-label">Reproductive & Fertility</span></div>
+      <div class="hc-card"><span class="hc-icon">🏥</span><span class="hc-label">Cancer Screening</span></div>
+      <div class="hc-card"><span class="hc-icon">🍤</span><span class="hc-label">Hepatitis Screening</span></div>
+      <div class="hc-card"><span class="hc-icon">🫁</span><span class="hc-label">Lungs</span></div>
+      <div class="hc-card"><span class="hc-icon">🏋️‍♂️</span><span class="hc-label">Weight Management</span></div>
+      <div class="hc-card"><span class="hc-icon">🟡</span><span class="hc-label">Iron Studies</span></div>
+      <div class="hc-card"><span class="hc-icon">👩‍🦰</span><span class="hc-label">PCOD Screening</span></div>
+      <div class="hc-card"><span class="hc-icon">✔️</span><span class="hc-label">Healthy 2024</span></div>
+    </div>
+  </div>
+</body>
+</html>

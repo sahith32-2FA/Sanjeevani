@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Health Insurance Plans</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #0078d4;
+      color: white;
+      padding: 18px 40px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    .plans-container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+    .plan-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgb(0 0 0 / 0.1);
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      transition: box-shadow 0.3s ease;
+    }
+    .plan-card:hover {
+      box-shadow: 0 6px 22px rgb(0 0 0 / 0.15);
+    }
+    .plan-header {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #0078d4;
+    }
+    .plan-price {
+      font-size: 1.1rem;
+      color: #333;
+      margin-bottom: 18px;
+    }
+    .plan-benefits {
+      flex-grow: 1;
+      margin-bottom: 20px;
+    }
+    .plan-benefits ul {
+      padding-left: 18px;
+      margin: 0;
+      list-style-type: disc;
+      color: #555;
+    }
+    .cta-btn {
+      background: #0078d4;
+      border: none;
+      color: white;
+      padding: 12px;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      text-align: center;
+    }
+    .cta-btn:hover {
+      background: #005a9e;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.9rem;
+      color: #777;
+      background: #e5e5e5;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Health Insurance Plans Tailored For You
+</header>
+
+<div class="plans-container">
+
+  
+
+  <div class="plan-card">
+    <div class="plan-header">Sanjeevani Health Insurance</div>
+    <div class="plan-price">Affordable plans starting @ ₹1/day</div>
+    <div class="plan-benefits">
+      <ul>
+        <li>High Claim Settlement Ratio (99%)</li>
+        <li>Global Coverage for medical emergencies</li>
+        <li>No medical check-ups on critical illness</li>
+        <li>Family floater and senior citizen options</li>
+        <li>Easy online purchase and claim process</li>
+      </ul>
+    </div>
+    <button class="cta-btn">Explore Plans</button>
+  </div>
+
+  
+
+</div>
+
+<footer>
+  &copy; 2025 Health Insurance Providers. All rights reserved.
+</footer>
+
+</body>
+</html>

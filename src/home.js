@@ -62,90 +62,91 @@ function Home() {
 
       {/* services row */}
       <div className="service-row">
-        <div className="service-card light-green">
-          <a href="medicines.html" className="service-card light-green" style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center' }}></a>
-          <img src={medicineimg} className="service-icon" alt="" />
-          <div>
-            <div className="service-title">Buy Medicines & Essentials</div>
-            <div className="service-subtitle">2HRS DELIVERY</div>
-          </div>
-          <i className="fa-solid fa-chevron-right"></i>
-        </div>
+          <a href="medicines.html" className="service-card light-green" style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center' }}>
+            <img src={medicineimg} className="service-icon" alt="" />
+            <div>
+              <div className="service-title">Buy Medicines & Essentials</div>
+              <div className="service-subtitle">2HRS DELIVERY</div>
+            </div>
+            <i className="fa-solid fa-chevron-right"></i>
+          </a>
+            
 
-        <div className="service-card light-yellow">
+            
+        <a href="doctors.html" className="service-card light-yellow" style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center' }}>
           <img src={doctorimg} className="service-icon" alt="" />
           <div>
             <div className="service-title">Doctor Appointment</div>
             <div className="service-subtitle">BOOK NOW</div>
           </div>
           <i className="fa-solid fa-chevron-right"></i>
-        </div>
+        </a>
 
-        <div className="service-card light-pink">
+        <a href="labtests.html" className="service-card light-pink"style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center' }}>
           <img src={labimg} className="service-icon" alt="" />
           <div>
             <div className="service-title">Lab Tests</div>
             <div className="service-subtitle">AT HOME</div>
           </div>
           <i className="fa-solid fa-chevron-right"></i>
-        </div>
+        </a>
 
-        <div className="service-card light-salmon">
+        <a href="insurance.html" className="service-card light-salmon" style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center' }}>
           <img src={healthimg} className="service-icon" alt="" />
           <div>
             <div className="service-title">Health Insurance</div>
             <div className="service-subtitle">EXPLORE PLANS</div>
           </div>
           <i className="fa-solid fa-chevron-right"></i>
-        </div>
-      </div>
+        </a>
+      </div>  
 
       {/* categories */}
-      <h3 className="h3">Shop By Category </h3>
 
-      <div className="category-grid">
-        <div className="category-card">
-          <img src={monitorimg} alt="Health Monitors" />
-          <p>Health Monitors</p>
-        </div>
+        <h3 className="h3">Shop By Category </h3>
+  
 
-        <div className="category-card">
-          <img src={ayurvedicimg} alt="Ayurvedic Diabetes Care" />
-          <p>Ayurvedic Diabetes Care</p>
-        </div>
+      <><div className="category-grid">
+          <div className="category-card">
+            <img src={monitorimg} alt="Health Monitors" />
+            <p>Health Monitors</p>
+          </div>
 
-        <div className="category-card">
-          <img src={painimg} alt="Pain Relief" />
-          <p>Pain Relief</p>
-        </div>
+          <div className="category-card">
+            <img src={ayurvedicimg} alt="Ayurvedic Diabetes Care" />
+            <p>Ayurvedic Diabetes Care</p>
+          </div>
 
-        <div className="category-card">
-          <img src={babyimg} alt="Baby Care" />
-          <p>Baby Care</p>
-        </div>
-      </div>
+          <div className="category-card">
+            <img src={painimg} alt="Pain Relief" />
+            <p>Pain Relief</p>
+          </div>
 
-      <div className="category-grid">
-        <div className="category-card">
-          <img src={proteinimg} alt="Health Monitors" />
-          <p>protein</p>
-        </div>
+          <div className="category-card">
+            <img src={babyimg} alt="Baby Care" />
+            <p>Baby Care</p>
+          </div>
+        </div><div className="category-grid">
+            <div className="category-card">
+              <img src={proteinimg} alt="Health Monitors" />
+              <p>protein</p>
+            </div>
 
-        <div className="category-card">
-          <img src={skincareimg} alt="Ayurvedic Diabetes Care" />
-          <p>Skin Care</p>
-        </div>
+            <div className="category-card">
+              <img src={skincareimg} alt="Ayurvedic Diabetes Care" />
+              <p>Skin Care</p>
+            </div>
 
-        <div className="category-card">
-          <img src={vitaminimg} alt="Pain Relief" />
-          <p>vitamin</p>
-        </div>
+            <div className="category-card">
+              <img src={vitaminimg} alt="Pain Relief" />
+              <p>vitamin</p>
+            </div>
 
-        <div className="category-card">
-          <img src={Nutritiousimg} alt="Baby Care" />
-          <p>Nutritious Drinks</p>
-        </div>
-      </div>
+            <div className="category-card">
+              <img src={Nutritiousimg} alt="Baby Care" />
+              <p>Nutritious Drinks</p>
+            </div>
+          </div></>
     </>
   );
 }

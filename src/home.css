@@ -104,23 +104,25 @@ body {
 
 /* ----------- Service Cards Row ----------- */
 .service-row {
-  width: 88%;
-  margin: 2.5rem auto;
-  display: flex;
-  gap: 1.2rem;                            /* smaller gaps like reference */
+  display: flex;          /* arrange child elements side by side */
+  gap: 20px;              /* space between the cards */
+  flex-wrap: nowrap;      /* keep all cards in one line */
+  justify-content: space-evenly;
+  margin: 25px;
 }
 
+
 .service-card {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  gap: 0.9rem;
-  background: #f1f1f1;
-  padding: 1rem 1.2rem;
-  border-radius: 16px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  flex: 1 1 250px;       /* grow and shrink with minimum 250px width */
+  max-width: 250px;      /* max width */
+  display: flex;         /* layout contents horizontally */
+  align-items: center;   /* vertical center */
+  padding: 15px 20px;
+  border-radius: 12px;
   cursor: pointer;
+  background-color: #e0f7e9; /* example */
 }
+
   .light-green { background: #eaf6e9; } 
   .light-yellow { background: #fff5d8; } 
   .light-pink { background: #fef0f4; } 
