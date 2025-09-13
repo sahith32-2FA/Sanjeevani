@@ -63,6 +63,7 @@ function Home() {
       {/* services row */}
       <div className="service-row">
         <div className="service-card light-green">
+          <a href="medicines.html" className="service-card light-green" style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center' }}></a>
           <img src={medicineimg} className="service-icon" alt="" />
           <div>
             <div className="service-title">Buy Medicines & Essentials</div>
